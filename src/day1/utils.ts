@@ -1,23 +1,3 @@
-const splice = (
-  input: string,
-  start: number,
-  delCount: number,
-  newSubStr: string
-) => {
-  return (
-    input.slice(0, start) + newSubStr + input.slice(start + Math.abs(delCount))
-  );
-};
-
-function getAllIndexes(arr: string, val: string) {
-  var indexes = [],
-    i = -1;
-  while ((i = arr.indexOf(val, i + 1)) != -1) {
-    indexes.push(i);
-  }
-  return indexes;
-}
-
 export const getFirst = (input: string) => {
   for (const letter of input) {
     if (!isNaN(parseInt(letter))) {

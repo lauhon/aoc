@@ -34,8 +34,6 @@ export const day2 = () => {
     // }
 
     sum += config.blue * config.red * config.green;
-
-    console.log(config, sets);
   }
 
   console.log(sum);
