@@ -1,7 +1,3 @@
-// import { day1 } from "./src/day1";
-// import { day2 } from "./src/day2";
+import { day3 } from "./src/2023/day3";
 
-import { day1 } from "./src/2015/day1";
-
-day1();
-// day2();
+day3();
